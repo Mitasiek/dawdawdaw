@@ -10,7 +10,7 @@
 
 
 header{
-    background-color: gray;
+    background-color: rgb(168, 33, 33);
     
 }
 
@@ -69,7 +69,7 @@ nav a:hover{
     height: 100%;
     width: 100%;
     max-width: 450px;
-    background-color: #172f43;
+    background-color: #4f5253;
     box-sizing: border-box;
     padding: 20px;
     color: #fff;
@@ -118,7 +118,7 @@ article{
     height: 2500px;
     font-family: 'Fira Sans', sans-serif;
     color: lightgray;
-    background-color: #222;
+    background-color: rgb(175, 175, 175);
 }
 
 .article-h1{

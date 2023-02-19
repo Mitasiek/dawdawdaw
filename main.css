@@ -115,10 +115,31 @@ nav a:hover{
 article{
     float: left;
     width: 100%;
-    height: 2500px;
+    height: 170px;
     font-family: 'Fira Sans', sans-serif;
     color: rgb(255, 255, 255);
-    background-color: rgb(175, 175, 175);
+    background-color: grey;
+}
+
+.contact-article{
+    float: left;
+    height: 750px;
+    width: 75%;
+    color: rgb(53, 46, 46);
+    background-color: #ffffff;
+    padding-left: 25%;
+    padding-top: 50px;
+    padding-bottom: 35px;
+}
+
+.contact-article-h1{
+    font-size: 25px;
+    padding-left: 350px;
+    padding-bottom: 25px;
+}
+
+.contact-article-map{
+    padding-left: 175px;
 }
 
 .article-h1{
@@ -133,11 +154,22 @@ article{
 
 footer{
     clear: both;
-    height: 120px;
+    height: 200px;
     width: 100;
-    padding-top: 65px;
-    padding-left: 650px;
+    
     font-family: 'Fira Sans', sans-serif;
     background-color: grey;
+}
+
+.footer-h2{
+    float: left;
+    padding-top: 65px;
+    padding-left: 300px;
+}
+
+.footer-fb{
+    float: left;
+    padding-left: 50px;
+    padding-top: 100px;
 }
 

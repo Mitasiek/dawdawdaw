@@ -143,12 +143,12 @@ article{
 
 .contact-article-h1{
     font-size: 25px;
-    padding-left: 25%;
+    padding-left: 26%;
     padding-bottom: 25px;
 }
 
 .contact-article-map{
-    padding-left: 15%;
+    padding-left: 13%;
 }
 
 .article-h1{
@@ -173,13 +173,13 @@ footer{
 .footer-h2{
     float: left;
     font-size: 2vh;
-    padding-left: 30%;
-    padding-top: 20px;
+    padding-left: 32%;
+    padding-top: 30px;
 }
 
 .footer-socialmedia{
     float: left;
-    padding-left: 10%;
+    padding-left: 15%;
 }
 
 .footer-fb{

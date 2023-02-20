@@ -131,6 +131,14 @@ article{
     color: rgb(53, 46, 46);
 }
 
+.about-article{
+    float: left;
+    height: 750px;
+    width: 100%;
+    background-color: #ffffff;
+    color: rgb(53, 46, 46);
+}
+
 .contact-article{
     float: left;
     height: 750px;
@@ -149,7 +157,9 @@ article{
 }
 
 .contact-article-map{
-    padding-left: 13%;
+    padding-left: 12%;
+    height: 40vh;
+    width: 35vw;
 }
 
 .article-h1{

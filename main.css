@@ -146,6 +146,7 @@ article{
     float: left;
     word-wrap: break-word;
   }
+
   
   .row:after {
     content: "";

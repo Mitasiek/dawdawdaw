@@ -126,23 +126,25 @@ article{
 
 .column {
     float: left;
-    height: 300px;
   }
   
   .column.side {
     width: 25%;
     float: left;
     padding-top: 25px;
+    padding-bottom: 25px;
   }
   
   .column.middle {
+    padding-top: 25px;
+    padding-bottom: 25px;
     width: 50%;
     float: left;
-    padding-top: 25px;
   }
 
-  .column.middle.p{
+  .column.middle.div{
     float: left;
+    word-wrap: break-word;
   }
   
   .row:after {

@@ -176,12 +176,22 @@ article{
 
 
 
+.top-area{
+  width: 100%;
+  position: relative;
+  min-height: 150px;
+  max-height: 150px;
+  display: inline-block;
+  background: gray;
+  height: 20vh;
+  text-align: center;
+  color: white;
+  font-size: 26px;
+  font-weight: 700;
+}
 
+.top-area h1{
 
-
-.article-h1{
-    font-size: 60px;
-    text-align: center;
 }
 
 .article-p{

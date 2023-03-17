@@ -9,106 +9,94 @@
 
 
 
-header{
-    background-color: rgb(168, 33, 33);
-    
-}
-
-header::after{
-    content: '';
-    display: table;
-    clear: both;
-}
-
-
-
-.logo{
-    float: left;
-    padding: 20px;
-    padding-left: 5vw;
-}
-
-
-
-
 nav{
-    float: right;
+  background: #A82121;
+  height: 120px;
+  width: 100%;
 }
-
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 110px;
+  padding: 0 100px;
+  font-weight: bold;
+}
 nav ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  float: right;
+  margin-right: 20px;
 }
-
-nav li{
-    display: inline-block;
-    margin: 0 35px;
-    padding-top: 50px;
-    
-    position: relative;
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
 }
-
-nav a{
-    color: #ffffff;
-    text-decoration: none;
-    text-transform: uppercase;
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,a:hover{
+  background: #9b1f1f;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media (max-width: 952px){
+  label.logo{
     font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
 }
-
-nav a:hover{
-    color: rgb(255, 255, 255);
-    
-}
-
-.nav-side{
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
     position: fixed;
-    left: 0;
-    top: 0;
-    height: 100%;
     width: 100%;
-    max-width: 450px;
-    background-color: #4f5253;
-    box-sizing: border-box;
-    padding: 20px;
-    color: #fff;
-    margin-left: -450px;
-    transition: margin 500ms ease-in-out;
-    
-}
-
-
-.nav-side.nav-open{
-    margin-left: 0;
-    box-shadow: 10px 5px 20px rgba(0,0,0, .1)
-    
-}
-
-
-.nav-toggle{
-    position: absolute;
-    right: -50px;
-    top: 0;
-    width: 50px;
-    height: 50px;
-    background-color: #172f43;
-    line-height: 45px;
-    text-decoration: none;
+    height: 100vh;
+    background: #2c3e50;
+    top: 100px;
+    left: -120%;
     text-align: center;
-    border-bottom-right-radius: 3px;
-    border-top-right-radius: 3px;
-    box-shadow: 10px 5px 20px rgba(0,0,0, .1)
-    
+    transition: all .6s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
 }
-
-.nav-toggle:before{
-    content: "\2192";
-    font-weight: 1000;
-    color: #fff;
-}
-
-.nav-side.nav-open .nav-toggle:before{
-    content: "\2190"
+.section2{
+  background: url(bg1.jpg) no-repeat;
+  background-size: cover;
+  height: calc(100vh - 80px);
 }
 
 article{
@@ -120,6 +108,10 @@ article{
     font-family: 'Fira Sans', sans-serif;
     color: rgb(255, 255, 255);
     background-color: grey;
+}
+
+.szkolenia-link{
+  color: black;
 }
 
 .grid-container {
@@ -178,7 +170,6 @@ article{
 
 .top-area{
   width: 100%;
-  position: relative;
   min-height: 150px;
   max-height: 150px;
   display: inline-block;
@@ -190,9 +181,6 @@ article{
   font-weight: 700;
 }
 
-.top-area h1{
-
-}
 
 .article-p{
     font-size: 30px;

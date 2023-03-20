@@ -129,9 +129,6 @@ article{
     word-wrap: break-word;
 }
 
-.grid-container h1{
-  word-break: keep-all;
-}
 
 .item1 { grid-area: 1 / 1; }
 .item2 { grid-area: 1 / 2; }
@@ -197,7 +194,7 @@ section {
     width: 100%;
     display: inline-block;
     background: #ccc;
-    height: 23vh;
+    height: 32vh;
     text-align: center;
     font-size: 22px;
     font-weight: 700;
